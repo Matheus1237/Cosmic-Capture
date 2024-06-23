@@ -1,0 +1,28 @@
+{% extends 'shared/base.html' %}
+{% load static %}
+{% block content %}
+            <section class="conteudo">
+                <section class="imagem">
+                    <div class="imagem__conteudo">
+                        {% if fotografia.foto == "" or fotografia.foto == null %}
+                        <img class="imagem__imagem" src="{% static '/assets/imagens/galeria/not-found.png'%}">
+                        {% else %}
+                        <img class="imagem__imagem" src="{{fotografia.foto.url}}">
+                        {% endif %}
+                        <div class="imagem__info">
+                            <div class="imagem__texto">
+                                <p class="imagem__titulo">{{fotografia.nome}}</p>
+                                <p class="imagem__descricao">{{fotografia.legenda}}</p>
+                                <p class="imagem__texto">{{fotografia.descricao}}</p>
+                            </div>
+                            <div>
+                                <a href="{% url 'editar_imagem' fotografia.id %}"><button class="btn btn-success col-12" style="padding: top 5px;">Editar</button></a>
+                                <a href="{% url 'deletar_imagem' fotografia.id %}"><button class="btn btn-danger col-12" style="padding: top 5px;">Deletar</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+    </div>
+{% endblock %}
