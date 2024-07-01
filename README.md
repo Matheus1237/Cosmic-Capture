@@ -1,40 +1,40 @@
 # Galeria de Fotos do Espaço
-Este é um projeto desenvolvido em Django que permite aos usuários criar, visualizar, editar e excluir imagens relacionadas ao espaço sideral. Além das funcionalidades básicas de CRUD (Create, Read, Update, Delete) de imagens, o sistema também inclui autenticação de usuários para garantir a segurança e privacidade das informações.
+Este é um projeto desenvolvido em Django que permite aos usuários 1.Criar, 2.Visualizar, 3.Editar e 4.Excluir imagens relacionadas ao espaço sideral. Além das funcionalidades básicas de CRUD (Create, Read, Update, Delete) de imagens, o sistema também inclui autenticação de usuários para garantir a segurança e privacidade das informações.
 
 ## Funcionalidades Principais
 ### Autenticação de Usuários:
 
-Registro e login de usuários para acessar o sistema.
+Registro e LOGIN de usuários para acessar o sistema.
 ### CRUD de Imagens:
 
-Criar: Adicionar novas imagens à galeria.
-Ler: Visualizar detalhes e thumbnails das imagens existentes.
-Atualizar: Modificar informações ou substituir imagens já cadastradas.
-Excluir: Remover imagens que não são mais necessárias.
+1.Criar: Adicionar novas imagens à galeria.
+2.Ler: Visualizar detalhes e thumbnails das imagens existentes.
+3.Atualizar: Modificar informações ou substituir imagens já cadastradas.
+4.Excluir: Remover imagens que não são mais necessárias.
 ### Galeria de Fotos Responsiva:
 
 Interface amigável que se adapta a diferentes tamanhos de tela.
 
 ## Instalação
 
-### Clone o repositório:
+### 1.Clone o repositório:
 git clone https://github.com/seu-usuario/nome-do-repositorio.git
 cd nome-do-repositorio
 
-### Crie um ambiente virtual e instale as dependências:
+### 2.Crie um ambiente virtual e instale as dependências:
 python -m venv venv
 source venv/bin/activate   # No Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
-### Configure o banco de dados no arquivo settings.py conforme sua preferência (por exemplo, SQLite para desenvolvimento).
+### 3.Configure o banco de dados no arquivo settings.py conforme sua preferência (por exemplo, SQLite para desenvolvimento).
 
-### Execute as migrações do Django para aplicar as alterações no banco de dados:
+### 4.Execute as migrações do Django para aplicar as alterações no banco de dados:
 python manage.py migrate
 
-### Inicie o servidor de desenvolvimento:
+### 5.Inicie o servidor de desenvolvimento:
 python manage.py runserver
 
-### Acesse o projeto no seu navegador!
+### 6.Acesse o projeto no seu navegador!
 
 ## Tecnologias Utilizadas
 Python
