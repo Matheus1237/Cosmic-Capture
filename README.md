@@ -37,12 +37,12 @@ python manage.py runserver
 ### 6.Acesse o projeto no seu navegador!
 
 ## Tecnologias Utilizadas
-Python
-Django
-HTML/CSS
-JavaScript
-Bootstrap
-SQL
+Python  
+Django  
+HTML/CSS  
+JavaScript  
+Bootstrap  
+SQL  
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou relatar problemas na página de issues do projeto.
