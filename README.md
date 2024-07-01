@@ -7,10 +7,10 @@ Este é um projeto desenvolvido em Django que permite aos usuários 1.Criar, 2.V
 Registro e LOGIN de usuários para acessar o sistema.
 ### CRUD de Imagens:
 
-1.Criar: Adicionar novas imagens à galeria.\n
-2.Ler: Visualizar detalhes e thumbnails das imagens existentes.\n
-3.Atualizar: Modificar informações ou substituir imagens já cadastradas.\n
-4.Excluir: Remover imagens que não são mais necessárias.\n
+1.Criar: Adicionar novas imagens à galeria  
+2.Ler: Visualizar detalhes e thumbnails das imagens existentes  
+3.Atualizar: Modificar informações ou substituir imagens já cadastradas  
+4.Excluir: Remover imagens que não são mais necessárias  
 ### Galeria de Fotos Responsiva:
 
 Interface amigável que se adapta a diferentes tamanhos de tela.
